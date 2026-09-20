@@ -1,5 +1,5 @@
 import { useState, useEffect, Fragment } from "react";
-import "../styles/Results.css"
+import "../styles/Results.css";
 
 const Results = () => {
     const [group, setGroup] = useState("podstawowa");
@@ -74,7 +74,9 @@ const Results = () => {
                     !podstawowaPlayersResponse.ok ||
                     !zaawansowanaPlayersResponse.ok
                 ) {
-                    throw new Error("Nie udało się pobrać jednego z plików JSON");
+                    throw new Error(
+                        "Nie udało się pobrać jednego z plików JSON"
+                    );
                 }
 
                 const [
@@ -95,7 +97,10 @@ const Results = () => {
                 setPlayersPodstawowa(podstawowaPlayers || []);
                 setPlayersZaawansowana(zaawansowanaPlayers || []);
             } catch (error) {
-                console.error("Błąd podczas pobierania danych z JSON:", error);
+                console.error(
+                    "Błąd podczas pobierania danych z JSON:",
+                    error
+                );
             }
         };
 
@@ -679,6 +684,8 @@ const Results = () => {
                     </button>
 
                 </div>
+
+
 
             </div>
 

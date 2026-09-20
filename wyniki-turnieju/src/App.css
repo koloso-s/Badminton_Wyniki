@@ -1,22 +1,132 @@
-* {
-  box-sizing: border-box;
-}
-
 html,
 body,
 #root {
   margin: 0;
-  min-height: 100%;
+  padding: 0;
   width: 100%;
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f5f5f5;
+  background-color: #f5f5f5;
+  color: #222;
 }
 
-.app {
+#root {
+  min-height: 100vh;
+}
+
+.App {
   width: 100%;
   min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f5f5f5;
+}
+
+
+/* =========================
+   GŁÓWNY NAGŁÓWEK
+   ========================= */
+
+.app-header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 15px;
+
+}
+
+.app-title {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  height: auto !important;
+
+  color: #000000 !important;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* =========================
+   GŁÓWNA ZAWARTOŚĆ
+   ========================= */
+
+.app-main {
+  flex: 1;
+
+  width: 100%;
+
+  display: block;
+}
+
+
+/* =========================
+   STOPKA
+   ========================= */
+
+.home-page-footer {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px 10px;
+
+  background-color: #cecece;
+
+  color: #333;
+}
+
+.home-page-footer p {
+  margin: 0;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/* =========================
+   TELEFON
+   ========================= */
+
+@media (max-width: 800px) {
+  .app-title {
+    font-size: 26px;
+  }
+
+  .app-header {
+    padding: 16px 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .app-title {
+    font-size: 21px;
+  }
+
+  .app-header {
+    padding: 14px 8px;
+  }
+
+  .home-page-footer p {
+    font-size: 12px;
+  }
 }
