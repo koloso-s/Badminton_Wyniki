@@ -1,0 +1,226 @@
+[
+    {
+        "id": 5,
+        "fname": "Stachu",
+        "lname": "Jones",
+        "grupa": "zaawansowana",
+        "group_change_date": "2026-09-14"
+    },
+    {
+        "id": 6,
+        "fname": "Jan",
+        "lname": "Giblartar",
+        "grupa": "zaawansowana",
+        "group_change_date": "2026-09-20"
+    },
+    {
+        "id": 10,
+        "fname": "Adam",
+        "lname": "Nowak",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 11,
+        "fname": "Kamil",
+        "lname": "Kowalski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 12,
+        "fname": "Mateusz",
+        "lname": "Wiśniewski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 13,
+        "fname": "Jakub",
+        "lname": "Wójcik",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 15,
+        "fname": "Paweł",
+        "lname": "Kamiński",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 16,
+        "fname": "Tomasz",
+        "lname": "Lewandowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 17,
+        "fname": "Piotr",
+        "lname": "Zieliński",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 18,
+        "fname": "Damian",
+        "lname": "Szymański",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 20,
+        "fname": "Marcin",
+        "lname": "Dąbrowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 21,
+        "fname": "Patryk",
+        "lname": "Kozłowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 22,
+        "fname": "Bartosz",
+        "lname": "Jankowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 23,
+        "fname": "Rafał",
+        "lname": "Mazur",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 24,
+        "fname": "Sebastian",
+        "lname": "Krawczyk",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 25,
+        "fname": "Grzegorz",
+        "lname": "Piotrowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 26,
+        "fname": "Dominik",
+        "lname": "Grabowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 27,
+        "fname": "Krzysztof",
+        "lname": "Pawłowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 28,
+        "fname": "Maciej",
+        "lname": "Michalski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 29,
+        "fname": "Artur",
+        "lname": "Król",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 30,
+        "fname": "Szymon",
+        "lname": "Wieczorek",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 31,
+        "fname": "Dawid",
+        "lname": "Jabłoński",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 38,
+        "fname": "Antoni",
+        "lname": "Borkowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 39,
+        "fname": "Igor",
+        "lname": "Rogalski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 40,
+        "fname": "Maksymilian",
+        "lname": "Chmielewski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 41,
+        "fname": "Alan",
+        "lname": "Pietrzak",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 42,
+        "fname": "Konrad",
+        "lname": "Rutkowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 43,
+        "fname": "Hubert",
+        "lname": "Sikora",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 44,
+        "fname": "Nikodem",
+        "lname": "Wasilewski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 45,
+        "fname": "Adrian",
+        "lname": "Ostrowski",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 46,
+        "fname": "Kornel",
+        "lname": "Marciniak",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    },
+    {
+        "id": 47,
+        "fname": "Fabian",
+        "lname": "Zawadzki",
+        "grupa": "zaawansowana",
+        "group_change_date": null
+    }
+]

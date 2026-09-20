@@ -57,45 +57,45 @@ const Results = () => {
         const fetchData = async () => {
             try {
                 const [
+                    podstawowaResultsResponse,
+                    zaawansowanaResultsResponse,
+                    podstawowaPlayersResponse,
+                    zaawansowanaPlayersResponse,
+                ] = await Promise.all([
+                    fetch("/results-podstawowa.json"),
+                    fetch("/results-zaawansowana.json"),
+                    fetch("/players-podstawowa.json"),
+                    fetch("/players-zaawansowana.json"),
+                ]);
+
+                if (
+                    !podstawowaResultsResponse.ok ||
+                    !zaawansowanaResultsResponse.ok ||
+                    !podstawowaPlayersResponse.ok ||
+                    !zaawansowanaPlayersResponse.ok
+                ) {
+                    throw new Error("Nie udało się pobrać jednego z plików JSON");
+                }
+
+                const [
                     podstawowaResults,
                     zaawansowanaResults,
                     podstawowaPlayers,
                     zaawansowanaPlayers,
                 ] = await Promise.all([
-                    axios.get(
-                        "http://localhost:5000/api/results/podstawowa"
-                    ),
-                    axios.get(
-                        "http://localhost:5000/api/results/zaawansowana"
-                    ),
-                    axios.get(
-                        "http://localhost:5000/api/players/podstawowa"
-                    ),
-                    axios.get(
-                        "http://localhost:5000/api/players/zaawansowana"
-                    ),
+                    podstawowaResultsResponse.json(),
+                    zaawansowanaResultsResponse.json(),
+                    podstawowaPlayersResponse.json(),
+                    zaawansowanaPlayersResponse.json(),
                 ]);
 
-                setResultsPodstawowa(
-                    podstawowaResults.data || {}
-                );
+                setResultsPodstawowa(podstawowaResults || {});
+                setResultsZaawansowana(zaawansowanaResults || {});
 
-                setResultsZaawansowana(
-                    zaawansowanaResults.data || {}
-                );
-
-                setPlayersPodstawowa(
-                    podstawowaPlayers.data || []
-                );
-
-                setPlayersZaawansowana(
-                    zaawansowanaPlayers.data || []
-                );
+                setPlayersPodstawowa(podstawowaPlayers || []);
+                setPlayersZaawansowana(zaawansowanaPlayers || []);
             } catch (error) {
-                console.error(
-                    "Błąd podczas pobierania danych:",
-                    error
-                );
+                console.error("Błąd podczas pobierania danych z JSON:", error);
             }
         };
 
