@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="app-header">
         <h1 className="app-title">
-          Turniej Badmintona Gwoźnica Górna 2026/2027
+          Wyniki XXIII Turnieju Badmintona Gwoźnica Górna 2026/2027
         </h1>
       </header>
 
