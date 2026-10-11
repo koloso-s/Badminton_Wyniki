@@ -1,0 +1,194 @@
+[
+  {
+    "id": 2,
+    "fname": "Szczepan",
+    "lname": "Wójcik",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 3,
+    "fname": "Antoni",
+    "lname": "Rajner",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 7,
+    "fname": "Lena",
+    "lname": "Kędzia",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 8,
+    "fname": "Lena",
+    "lname": "Babiarz",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 9,
+    "fname": "Franciszek",
+    "lname": "Plęs",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 10,
+    "fname": "Kacper",
+    "lname": "Sołtys",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 11,
+    "fname": "Przemysław",
+    "lname": "Kordecki",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 12,
+    "fname": "Antosia",
+    "lname": "Tomoń",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 13,
+    "fname": "Lena",
+    "lname": "Koczot",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 16,
+    "fname": "Wiktoria",
+    "lname": "Babiarz",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 17,
+    "fname": "Nataniel",
+    "lname": "Stachura",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 18,
+    "fname": "Filip",
+    "lname": "Tomoń",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 19,
+    "fname": "Maciej",
+    "lname": "Pasternak",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 20,
+    "fname": "Tomasz",
+    "lname": "Kozak",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 25,
+    "fname": "Wiktor",
+    "lname": "Herbut",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 27,
+    "fname": "Barbara",
+    "lname": "Kozak",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 32,
+    "fname": "Michał",
+    "lname": "Wójcik",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "zaawansowana"
+  },
+  {
+    "id": 34,
+    "fname": "Sławomir",
+    "lname": "Lubas",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "zaawansowana"
+  },
+  {
+    "id": 35,
+    "fname": "Mateusz",
+    "lname": "Szoka",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "zaawansowana"
+  },
+  {
+    "id": 49,
+    "fname": "Piotr",
+    "lname": "Kurdziel",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 50,
+    "fname": "Ksawery",
+    "lname": "Cynar",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 51,
+    "fname": "Nel",
+    "lname": "Bar",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 52,
+    "fname": "Weronika",
+    "lname": "Bogaczyk",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 56,
+    "fname": "Paweł",
+    "lname": "Brzuszek",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  }
+]

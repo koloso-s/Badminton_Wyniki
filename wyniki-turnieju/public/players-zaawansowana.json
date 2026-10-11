@@ -1,100 +1,130 @@
 [
-    {
-        "id": 1,
-        "fname": "Krystian",
-        "lname": "Zarych",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 31,
-        "fname": "Paweł",
-        "lname": "Banaś",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 32,
-        "fname": "Michał",
-        "lname": "Wójcik",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 33,
-        "fname": "Robert",
-        "lname": "Rajner",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 34,
-        "fname": "Sławomir",
-        "lname": "Lubas",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 35,
-        "fname": "Mateusz",
-        "lname": "Szoka",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 36,
-        "fname": "Zuzanna",
-        "lname": "Szoka",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 37,
-        "fname": "Wojciech",
-        "lname": "Herbut",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 38,
-        "fname": "Fabian",
-        "lname": "Herbut",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 40,
-        "fname": "Franciszek",
-        "lname": "Stawarz",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 41,
-        "fname": "Sławomir",
-        "lname": "Bator",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 42,
-        "fname": "Jacek",
-        "lname": "Wójcik",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 43,
-        "fname": "Piotr",
-        "lname": "Tomoń",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    },
-    {
-        "id": 44,
-        "fname": "Paweł",
-        "lname": "Babiarz",
-        "grupa": "zaawansowana",
-        "group_change_date": null
-    }
+  {
+    "id": 1,
+    "fname": "Krystian",
+    "lname": "Zarych",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 31,
+    "fname": "Paweł",
+    "lname": "Banaś",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 33,
+    "fname": "Robert",
+    "lname": "Rajner",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 36,
+    "fname": "Zuzanna",
+    "lname": "Szoka",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 37,
+    "fname": "Wojciech",
+    "lname": "Herbut",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 38,
+    "fname": "Fabian",
+    "lname": "Herbut",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 39,
+    "fname": "Piotr",
+    "lname": "Kozak",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
+  },
+  {
+    "id": 40,
+    "fname": "Franciszek",
+    "lname": "Stawarz",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 41,
+    "fname": "Sławomir",
+    "lname": "Bator",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 42,
+    "fname": "Jacek",
+    "lname": "Wójcik",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 43,
+    "fname": "Piotr",
+    "lname": "Tomoń",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 44,
+    "fname": "Paweł",
+    "lname": "Babiarz",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 47,
+    "fname": "Aleksander",
+    "lname": "Lubaś",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 53,
+    "fname": "Igor",
+    "lname": "Sobczak",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 54,
+    "fname": "Tadeusz",
+    "lname": "Babiarz",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 55,
+    "fname": "Patryk",
+    "lname": "Zegar",
+    "grupa": "zaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  }
 ]
