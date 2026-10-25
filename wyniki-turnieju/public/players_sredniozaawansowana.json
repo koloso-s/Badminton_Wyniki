@@ -72,6 +72,14 @@
     "zmiana_2_turniej": "podstawowa"
   },
   {
+    "id": 15,
+    "fname": "Milena",
+    "lname": "Kowalska",
+    "grupa": "średniozaawansowana",
+    "group_change_date": "2026-10-25",
+    "zmiana_2_turniej": null
+  },
+  {
     "id": 16,
     "fname": "Wiktoria",
     "lname": "Babiarz",
@@ -144,12 +152,12 @@
     "zmiana_2_turniej": "zaawansowana"
   },
   {
-    "id": 35,
-    "fname": "Mateusz",
+    "id": 36,
+    "fname": "Zuzanna",
     "lname": "Szoka",
     "grupa": "średniozaawansowana",
-    "group_change_date": null,
-    "zmiana_2_turniej": "zaawansowana"
+    "group_change_date": "2026-10-25",
+    "zmiana_2_turniej": null
   },
   {
     "id": 49,
@@ -187,6 +195,30 @@
     "id": 56,
     "fname": "Paweł",
     "lname": "Brzuszek",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 59,
+    "fname": "Wioletta",
+    "lname": "Cynar",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 60,
+    "fname": "Natalia",
+    "lname": "Łyczak",
+    "grupa": "średniozaawansowana",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 61,
+    "fname": "Konrad",
+    "lname": "Podsiadło",
     "grupa": "średniozaawansowana",
     "group_change_date": null,
     "zmiana_2_turniej": null

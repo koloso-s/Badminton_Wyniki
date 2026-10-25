@@ -162,5 +162,39 @@
       "id": null,
       "miejsce": 8
     }
+  ],
+  "2026-10-25": [
+    {
+      "id": 58,
+      "miejsce": 1
+    },
+    {
+      "id": 22,
+      "miejsce": 2
+    },
+    {
+      "id": 29,
+      "miejsce": 3
+    },
+    {
+      "id": 14,
+      "miejsce": 4
+    },
+    {
+      "id": 48,
+      "miejsce": 5
+    },
+    {
+      "id": 57,
+      "miejsce": 6
+    },
+    {
+      "id": 46,
+      "miejsce": 7
+    },
+    {
+      "id": null,
+      "miejsce": 8
+    }
   ]
 }

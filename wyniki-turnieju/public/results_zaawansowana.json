@@ -130,5 +130,39 @@
       "id": null,
       "miejsce": 16
     }
+  ],
+  "2026-10-25": [
+    {
+      "id": 43,
+      "miejsce": 1
+    },
+    {
+      "id": 38,
+      "miejsce": 2
+    },
+    {
+      "id": 44,
+      "miejsce": 3
+    },
+    {
+      "id": 1,
+      "miejsce": 4
+    },
+    {
+      "id": 42,
+      "miejsce": 5
+    },
+    {
+      "id": 37,
+      "miejsce": 6
+    },
+    {
+      "id": 55,
+      "miejsce": 7
+    },
+    {
+      "id": 35,
+      "miejsce": 8
+    }
   ]
 }

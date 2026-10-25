@@ -32,14 +32,6 @@
     "zmiana_2_turniej": null
   },
   {
-    "id": 15,
-    "fname": "Milena",
-    "lname": "Kowalska",
-    "grupa": "podstawowa",
-    "group_change_date": null,
-    "zmiana_2_turniej": null
-  },
-  {
     "id": 21,
     "fname": "Arkadiusz",
     "lname": "Bator",
@@ -131,6 +123,14 @@
     "id": 57,
     "fname": "Klara",
     "lname": "Rajner",
+    "grupa": "podstawowa",
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 58,
+    "fname": "Franciszek",
+    "lname": "Gadamski",
     "grupa": "podstawowa",
     "group_change_date": null,
     "zmiana_2_turniej": null
