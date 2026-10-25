@@ -28,12 +28,12 @@ const Results = () => {
     const fetchData = async () => {
       try {
         const responses = await Promise.all([
-          fetch("/results-podstawowa.json"),
-          fetch("/results-sredniozaawansowana.json"),
-          fetch("/results-zaawansowana.json"),
-          fetch("/players-podstawowa.json"),
-          fetch("/players-sredniozaawansowana.json"),
-          fetch("/players-zaawansowana.json"),
+          fetch("/results_podstawowa.json"),
+          fetch("/results_sredniozaawansowana.json"),
+          fetch("/results_zaawansowana.json"),
+          fetch("/players_podstawowa.json"),
+          fetch("/players_sredniozaawansowana.json"),
+          fetch("/players_zaawansowana.json"),
         ]);
 
         if (responses.some((response) => !response.ok)) {
