@@ -126,27 +126,39 @@ const Results = () => {
     .filter(Boolean)
     .sort();
 
-  const getLegacyPreviousGroup = (currentGroup) => {
-    if (currentGroup === "zaawansowana") return "podstawowa";
-    if (currentGroup === "podstawowa") return "zaawansowana";
-    return null;
-  };
 
   const getPlayerTransitions = (player) => {
     const transitions = [];
+
     const currentGroup = normalizeGroup(player.grupa);
-    const migrationPreviousGroup = normalizeGroup(player.zmiana_2_turniej);
-    const normalChangeDate = getDateOnly(player.group_change_date);
-    const normalChangeFrom = normalizeGroup(player.group_change_from);
+
+    const migrationPreviousGroup = normalizeGroup(
+      player.zmiana_2_turniej
+    );
+
+    const normalChangeDate = getDateOnly(
+      player.group_change_date
+    );
+
+    const normalChangeFrom = normalizeGroup(
+      player.previous_grupa
+    );
 
     if (migrationPreviousGroup) {
       let migrationTarget = currentGroup;
 
-      if (normalChangeDate && normalChangeDate > MIGRATION_DATE && normalChangeFrom) {
+      if (
+        normalChangeDate &&
+        normalChangeDate > MIGRATION_DATE &&
+        normalChangeFrom
+      ) {
         migrationTarget = normalChangeFrom;
       }
 
-      if (migrationTarget && migrationPreviousGroup !== migrationTarget) {
+      if (
+        migrationTarget &&
+        migrationPreviousGroup !== migrationTarget
+      ) {
         transitions.push({
           date: MIGRATION_DATE,
           from: migrationPreviousGroup,
@@ -155,26 +167,31 @@ const Results = () => {
       }
     }
 
-    if (normalChangeDate) {
+    if (normalChangeDate && normalChangeFrom) {
       let afterGroup = currentGroup;
 
-      if (migrationPreviousGroup && normalChangeDate < MIGRATION_DATE) {
+      if (
+        migrationPreviousGroup &&
+        normalChangeDate < MIGRATION_DATE
+      ) {
         afterGroup = migrationPreviousGroup;
       }
 
-      let beforeGroup = normalChangeFrom;
-      if (!beforeGroup) beforeGroup = getLegacyPreviousGroup(afterGroup);
-
-      if (beforeGroup && afterGroup && beforeGroup !== afterGroup) {
+      if (
+        afterGroup &&
+        normalChangeFrom !== afterGroup
+      ) {
         transitions.push({
           date: normalChangeDate,
-          from: beforeGroup,
+          from: normalChangeFrom,
           to: afterGroup,
         });
       }
     }
 
-    return transitions.sort((a, b) => a.date.localeCompare(b.date));
+    return transitions.sort((a, b) =>
+      a.date.localeCompare(b.date)
+    );
   };
 
   const hasChangedGroup = (player) => Boolean(player.group_change_date);
@@ -207,13 +224,32 @@ const Results = () => {
 
   const getPointsMultiplier = (player, date) => {
     const tournamentDate = getDateOnly(date);
-    if (!tournamentDate) return 1;
+
+    if (!tournamentDate) {
+      return 1;
+    }
+
+    const migrationPreviousGroup = normalizeGroup(
+      player.zmiana_2_turniej
+    );
+
+    const transitions = getPlayerTransitions(player);
+
+    const transitionsToApply = migrationPreviousGroup
+      ? transitions.filter(
+        (transition) =>
+          transition.date === MIGRATION_DATE
+      )
+      : transitions;
 
     let multiplier = 1;
 
-    getPlayerTransitions(player).forEach((transition) => {
+    transitionsToApply.forEach((transition) => {
       if (tournamentDate < transition.date) {
-        multiplier *= getTransitionMultiplier(transition.from, transition.to);
+        multiplier *= getTransitionMultiplier(
+          transition.from,
+          transition.to
+        );
       }
     });
 
