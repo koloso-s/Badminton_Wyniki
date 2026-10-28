@@ -4,6 +4,7 @@
     "fname": "Krystian",
     "lname": "Zarych",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -12,6 +13,7 @@
     "fname": "Paweł",
     "lname": "Banaś",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -20,6 +22,7 @@
     "fname": "Robert",
     "lname": "Rajner",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -28,6 +31,7 @@
     "fname": "Mateusz",
     "lname": "Szoka",
     "grupa": "zaawansowana",
+    "previous_grupa": "średniozaawansowana",
     "group_change_date": "2026-10-25",
     "zmiana_2_turniej": "zaawansowana"
   },
@@ -36,6 +40,7 @@
     "fname": "Wojciech",
     "lname": "Herbut",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -44,6 +49,7 @@
     "fname": "Fabian",
     "lname": "Herbut",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -52,6 +58,7 @@
     "fname": "Piotr",
     "lname": "Kozak",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": "podstawowa"
   },
@@ -60,6 +67,7 @@
     "fname": "Franciszek",
     "lname": "Stawarz",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -68,6 +76,7 @@
     "fname": "Sławomir",
     "lname": "Bator",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -76,6 +85,7 @@
     "fname": "Jacek",
     "lname": "Wójcik",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -84,6 +94,7 @@
     "fname": "Piotr",
     "lname": "Tomoń",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -92,6 +103,7 @@
     "fname": "Paweł",
     "lname": "Babiarz",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -100,6 +112,7 @@
     "fname": "Aleksander",
     "lname": "Lubaś",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -108,6 +121,7 @@
     "fname": "Igor",
     "lname": "Sobczak",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -116,6 +130,7 @@
     "fname": "Tadeusz",
     "lname": "Babiarz",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -124,6 +139,7 @@
     "fname": "Patryk",
     "lname": "Zegar",
     "grupa": "zaawansowana",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   }

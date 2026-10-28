@@ -4,6 +4,7 @@
     "fname": "Andżelika",
     "lname": "Lubas",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -12,6 +13,7 @@
     "fname": "Kornelia",
     "lname": "Lubas",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -20,6 +22,7 @@
     "fname": "Olivia",
     "lname": "Lubas",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -28,6 +31,7 @@
     "fname": "Malwina",
     "lname": "Koczot",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -36,6 +40,7 @@
     "fname": "Arkadiusz",
     "lname": "Bator",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -44,6 +49,7 @@
     "fname": "Dawid",
     "lname": "Babiarz",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -52,6 +58,7 @@
     "fname": "Maja",
     "lname": "Bator",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -60,6 +67,7 @@
     "fname": "Filip",
     "lname": "Kozak",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -68,6 +76,7 @@
     "fname": "Magdalena",
     "lname": "Babiarz",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -76,6 +85,7 @@
     "fname": "Natalia",
     "lname": "Herbut",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -84,6 +94,7 @@
     "fname": "Zuzanna",
     "lname": "Tomoń",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -92,6 +103,7 @@
     "fname": "Wiktoria",
     "lname": "Stanisławczyk",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -100,6 +112,7 @@
     "fname": "Martyna",
     "lname": "Ząbek",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -108,6 +121,7 @@
     "fname": "Szymon",
     "lname": "Tomoń",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -116,6 +130,7 @@
     "fname": "Hania",
     "lname": "Babiarz",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -124,6 +139,7 @@
     "fname": "Klara",
     "lname": "Rajner",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -132,6 +148,7 @@
     "fname": "Franciszek",
     "lname": "Gadamski",
     "grupa": "podstawowa",
+    "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
   }
