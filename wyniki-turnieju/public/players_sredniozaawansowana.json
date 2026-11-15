@@ -135,6 +135,15 @@
     "zmiana_2_turniej": "podstawowa"
   },
   {
+    "id": 21,
+    "fname": "Arkadiusz",
+    "lname": "Bator",
+    "grupa": "średniozaawansowana",
+    "previous_grupa": "podstawowa",
+    "group_change_date": "2026-11-15",
+    "zmiana_2_turniej": null
+  },
+  {
     "id": 25,
     "fname": "Wiktor",
     "lname": "Herbut",
@@ -248,6 +257,27 @@
     "lname": "Podsiadło",
     "grupa": "średniozaawansowana",
     "previous_grupa": null,
+<<<<<<< Updated upstream
+=======
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 62,
+    "fname": "Miłosz",
+    "lname": "Kowalski",
+    "grupa": "średniozaawansowana",
+    "previous_grupa": null,
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 65,
+    "fname": "Maja",
+    "lname": "Kowalska",
+    "grupa": "średniozaawansowana",
+    "previous_grupa": null,
+>>>>>>> Stashed changes
     "group_change_date": null,
     "zmiana_2_turniej": null
   }

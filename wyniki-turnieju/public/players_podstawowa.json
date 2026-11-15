@@ -32,6 +32,7 @@
     "lname": "Koczot",
     "grupa": "podstawowa",
     "previous_grupa": null,
+<<<<<<< Updated upstream
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
@@ -41,6 +42,8 @@
     "lname": "Bator",
     "grupa": "podstawowa",
     "previous_grupa": null,
+=======
+>>>>>>> Stashed changes
     "group_change_date": null,
     "zmiana_2_turniej": null
   },
