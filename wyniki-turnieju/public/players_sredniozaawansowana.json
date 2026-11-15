@@ -259,5 +259,23 @@
     "previous_grupa": null,
     "group_change_date": null,
     "zmiana_2_turniej": null
+  },
+  {
+    "id": 62,
+    "fname": "Miłosz",
+    "lname": "Kowalski",
+    "grupa": "średniozaawansowana",
+    "previous_grupa": null,
+    "group_change_date": null,
+    "zmiana_2_turniej": null
+  },
+  {
+    "id": 65,
+    "fname": "Maja",
+    "lname": "Kowalska",
+    "grupa": "średniozaawansowana",
+    "previous_grupa": null,
+    "group_change_date": null,
+    "zmiana_2_turniej": null
   }
 ]
