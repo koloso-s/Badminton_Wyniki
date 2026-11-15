@@ -140,36 +140,6 @@
     "lname": "Zegar",
     "grupa": "zaawansowana",
     "previous_grupa": null,
-<<<<<<< Updated upstream
-=======
-    "group_change_date": null,
-    "zmiana_2_turniej": null
-  },
-  {
-    "id": 63,
-    "fname": "Oskar",
-    "lname": "Pilecki",
-    "grupa": "zaawansowana",
-    "previous_grupa": null,
-    "group_change_date": null,
-    "zmiana_2_turniej": null
-  },
-  {
-    "id": 64,
-    "fname": "Sebastian",
-    "lname": "Kotlarz",
-    "grupa": "zaawansowana",
-    "previous_grupa": null,
-    "group_change_date": null,
-    "zmiana_2_turniej": null
-  },
-  {
-    "id": 66,
-    "fname": "Mateusz",
-    "lname": "Kowalski",
-    "grupa": "zaawansowana",
-    "previous_grupa": null,
->>>>>>> Stashed changes
     "group_change_date": null,
     "zmiana_2_turniej": null
   }
