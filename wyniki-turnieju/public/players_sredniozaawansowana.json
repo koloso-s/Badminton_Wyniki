@@ -85,9 +85,9 @@
     "fname": "Milena",
     "lname": "Kowalska",
     "grupa": "średniozaawansowana",
-    "previous_grupa": "podstawowa",
-    "group_change_date": "2026-10-25",
-    "zmiana_2_turniej": null
+    "previous_grupa": null,
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
   },
   {
     "id": 16,
@@ -139,9 +139,9 @@
     "fname": "Arkadiusz",
     "lname": "Bator",
     "grupa": "średniozaawansowana",
-    "previous_grupa": "podstawowa",
-    "group_change_date": "2026-11-15",
-    "zmiana_2_turniej": null
+    "previous_grupa": null,
+    "group_change_date": null,
+    "zmiana_2_turniej": "podstawowa"
   },
   {
     "id": 25,
